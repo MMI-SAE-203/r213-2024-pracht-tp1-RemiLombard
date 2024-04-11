@@ -28,9 +28,9 @@ const menuIsOpen = ref(false)
     >
     <nav id="mainNav" v-show="menuIsOpen">
       <ul>
-        <li><a href="#">item 1</a></li>
-        <li><a href="#">item 2</a></li>
-        <li><a href="#">item 3</a></li>
+        <li><RouterLink to="/">accueil</RouterLink></li>
+        <li><RouterLink to="/accordeon">accordeon</RouterLink></li>
+
       </ul>
   </nav>
   </Transition>
