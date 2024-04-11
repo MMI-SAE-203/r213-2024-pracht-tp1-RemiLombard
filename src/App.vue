@@ -30,6 +30,7 @@ const menuIsOpen = ref(false)
       <ul>
         <li><RouterLink to="/">accueil</RouterLink></li>
         <li><RouterLink to="/accordeon">accordeon</RouterLink></li>
+        <li><RouterLink to="/boucle">boucle</RouterLink></li>
 
       </ul>
   </nav>
